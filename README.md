@@ -1,6 +1,6 @@
-# Bulletproof Protocol Implementation
+# Bulletproofs Protocol Implementation
 
-This code implements both the **Prover** and **Verifier** sides of the Bulletproof protocol, which is a non-interactive zero-knowledge proof for range proofs based on the hardness of discrete logarithms. The protocol is specifically designed to commit to a **vector** of values in a secure and verifiable way.
+This code implements both the **Prover** and **Verifier** sides of a Bulletproofs-like commitment, which is a non-interactive zero-knowledge argument of knowledge of an opening for a generalized Pedersen commitment to a vector of length n (based on the hardness of discrete logarithms).
 
 ## Key Features:
 - **Commitment to a Vector**: The Bulletproof protocol allows the Prover to commit to a vector of values `x` without revealing them. This commitment is then verified by the Verifier without revealing the individual elements of the vector.
