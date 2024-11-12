@@ -40,4 +40,4 @@ assert(large_test_correct_commitment() == True)
 - Modify the `g` and `x` vectors as needed, ensuring that `g` is generated from a valid subgroup generator of size `p`.
 
 ## References:
-The basic concepts of the Bulletproof protocol were referenced from the work by Dr. Anca Nitulescu. For further reading, you can explore the detailed explanations provided in [this link](https://hackmd.io/7wcukChhRwKJwXoG2T-mkA#1-Implement-the-Protocol).
+The basic concepts of the Bulletproof protocol were referenced in the article by Dr. Anca Nitulescu. For further reading, you can explore the detailed explanations provided in [this link](https://hackmd.io/7wcukChhRwKJwXoG2T-mkA).
