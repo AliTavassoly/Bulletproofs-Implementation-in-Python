@@ -38,3 +38,6 @@ assert(large_test_correct_commitment() == True)
 - Set the values of `p` and `q` to the desired prime numbers, where `q = 2p + 1`.
 - The `Prover` class generates commitments to a vector of values `x`, and the `Verifier` class verifies the validity of those commitments.
 - Modify the `g` and `x` vectors as needed, ensuring that `g` is generated from a valid subgroup generator of size `p`.
+
+## References:
+The basic concepts of the Bulletproof protocol were referenced from the work by Dr. Anca Nitulescu. For further reading, you can explore the detailed explanations provided in [this link](https://hackmd.io/7wcukChhRwKJwXoG2T-mkA#1-Implement-the-Protocol).
